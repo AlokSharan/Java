@@ -1,3 +1,7 @@
+/*
+Event Handling
+ */
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
@@ -31,7 +35,7 @@ MyFrame1() {
 		
 		}
 
-public void actionPerformed(ActionEvent e) {
+public void actionPerformed(ActionEvent e) {		//Method Override
 	
 	if (e.getSource() == button1) {
 		c.setBackground(Color.RED);
@@ -65,3 +69,14 @@ public class MyJButton7{
 	}
 	
 }
+
+
+
+/*
+
+ActionListener in Java is a class that is responsible in handling all action 
+events such as when the user clicks on a component. Mostly, action listeners 
+are used for JButtons. An ActionListener can be used by the implements keyword 
+to the class definition.
+
+ */
