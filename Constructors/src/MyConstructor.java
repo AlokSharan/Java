@@ -9,7 +9,7 @@ public class MyConstructor {
 	int x;						//Create a Class Attributes
 	
 	public MyConstructor() {	//Create a Class Constructor same as Class name
-		x = 555;					//Set the initial value for the Class Attribute x
+		x = 5;					//Set the initial value for the Class Attribute x
 			
 	}
 	
