@@ -2,7 +2,7 @@
 
 public class Bike{
 	int modelYear1;
-	String modelName, speedometer, engineType, realBrake,mile,modelYear, max, fuelCapacity;
+	String modelName, speedometer, engineType, realBrake, mile,modelYear, max, fuelCapacity;
 	
 	public Bike(int year,String mile,String max,String fuel,String  name, String speed,String engine,String brake){
 		
@@ -15,19 +15,20 @@ public class Bike{
 		engineType = engine;
 		realBrake = brake;
 }
-
-public static void main(String[] args) {
-
-	Bike myObj = new Bike( 2020, "37Kmpl", "27PS", "15L", "Kawasaki Ninja", "Analogue", "Single Cylinder", "Disc");
-	System.out.println(myObj.modelYear1);
-	System.out.println(myObj.mile);
-	System.out.println(myObj.max);
-	System.out.println(myObj.fuelCapacity);
-	System.out.println(myObj.modelName);
-	System.out.println(myObj.speedometer);
-	System.out.println(myObj.engineType);
-	System.out.println(myObj.realBrake);
 	
-}
+	public static void main(String[] args) {
+		
 
+		Bike myObj = new Bike( 2020, "40Kmpl", "27PS", "15L", "Kawasaki Ninja", "Analogue", "Single Cylinder", "Disc");
+		
+		System.out.println("Year -> " + myObj.modelYear1);
+		System.out.println("Mile -> " + myObj.mile);
+		System.out.println("Max -> " + myObj.max);
+		System.out.println("Fuel Capacity -> " + myObj.fuelCapacity);
+		System.out.println("Model Name -> " + myObj.modelName);
+		System.out.println("Speedo Meter -> " + myObj.speedometer);
+		System.out.println("Engine Type -> " + myObj.engineType);
+		System.out.println("Real Brake -> " + myObj.realBrake);
+	}
+	
 }

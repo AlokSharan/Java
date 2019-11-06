@@ -20,7 +20,7 @@ public class Car {
 	public static void main(String[] args) {
 		
 		Car car = new Car(2000, "Duster");
-		System.out.println(car.modelYear + " " + car.modelName);
+		System.out.println("Year-" + car.modelYear + " " + "Name-" + car.modelName);
 		
 	}
 
