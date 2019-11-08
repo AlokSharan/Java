@@ -1,11 +1,11 @@
 /*
  
-Create a Constructor
+Create a java Constructor
 
 */
 
 
-public class MyConstructor {
+public class MyConstructor {	//Create MyConstructor Class
 	int x;						//Create a Class Attributes
 	
 	public MyConstructor() {	//Create a Class Constructor same as Class name
