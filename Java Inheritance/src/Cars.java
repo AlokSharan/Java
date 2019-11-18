@@ -22,6 +22,7 @@ public class Vehicle {
 class Cars extends Vehicle {
 	private String modelName = "Mustang";
 	
+	
 	public static void main(String[] args) {
 		Cars myCar = new Cars();
 		myCar.honk();

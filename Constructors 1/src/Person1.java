@@ -16,7 +16,7 @@ abstract class Person1 {
 }
 
 
-//Subclass (Inherit from Person)
+//Subclass (Inherit from Person1)
 
 class Student2 extends Person1{	
 	public int graduationYear = 2019;
